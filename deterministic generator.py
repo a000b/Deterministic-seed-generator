@@ -3,7 +3,7 @@ p = 31 #słowo startowe
 s = 78 #skok
 for i in range(24):
     try:
-        print(i + 1, p, lineList[p])
+        print(i + 1, p, lineList[p - 1])
         p += s
     except IndexError:
         print("poza zakresem, dostosuj parametry")
